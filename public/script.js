@@ -749,7 +749,7 @@ function fetchUnsplashImages(placeName) {
 
 // Fetch images from Flickr (fallback)
 function fetchFlickrImages(placeName) {
-  const apiKey = 'a359fae9c87bb52fe6a0a15c74d3ccb9';
+  const apiKey = 'your main api key';
   const flickrUrl = `https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&text=${encodeURIComponent(placeName)}&format=json&nojsoncallback=1&per_page=10&sort=relevance`;
 
   fetch(flickrUrl)

@@ -1,0 +1,51 @@
+{
+  "name": "smart-road-trip-planner",
+  "version": "1.0.0",
+  "description": "Interactive road trip planning application with map integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "vite",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "vite build"
+  },
+  "keywords": [
+    "road-trip",
+    "maps",
+    "travel",
+    "planning",
+    "route"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "axios": "^1.15.0",
+    "bcryptjs": "^3.0.3",
+    "clsx": "^2.1.1",
+    "compression": "^1.7.4",
+    "concurrently": "^9.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "framer-motion": "^12.38.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "lowdb": "^5.1.0",
+    "lucide-react": "^1.8.0",
+    "node-fetch": "^2.6.12",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-router-dom": "^7.14.0",
+    "semver": "^7.7.4",
+    "tailwind-merge": "^3.5.0",
+    "vite": "^8.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
